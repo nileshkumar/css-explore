@@ -1,1 +1,1 @@
-# css-explore
+# Let's explore CSS
