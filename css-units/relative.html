@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Relative Units</title>
+  <link rel="stylesheet" href="../styles/relative.css">
+</head>
+<body>
+
+  <!--
+
+  There are also relative units, which are relative to the current element's font-size or viewport size:
+
+  em: 1em is the same as the font-size of the current element (more specifically, the width of a capital letter M.)
+      The default base font-size given to web pages by web browsers before CSS styling is applied is 16 pixels, which means the
+      computed value of 1em is 16 pixels for an element by default.
+  -->
+
+  <p>These paragraphs have a calculated line-height of: 2x16px = 32px.</p>
+  <div>The font-size of the div element is set to 30px.
+  <span>The span element inside the div element has a font-size of 0.70em, which equals to 0.70x30 = 21px</span>.</div>
+</body>
+</html>
