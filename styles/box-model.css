@@ -1,0 +1,15 @@
+.content{
+    background-color: orange;
+    width: 10rem;
+		height: 5rem;
+    border: 2px solid green;
+}
+.no-padding {
+		padding: 0;
+}
+.some-padding {
+	padding: 2rem;
+}
+.with-margin{
+  margin: 30px 5px 20px 8px;
+}
