@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Table Structure</title>
+  <link rel="stylesheet" href="../styles/table-style.css">
+</head>
+<body>
+
+  <!--
+  Table Styling Guidlines:
+
+  Make your table markup as simple as possible, and keep things flexible,
+  e.g. by using percentages, so the design is more responsive.
+
+  Use table-layout: fixed to create a more predictable table layout that allows
+  you to easily set column widths by setting width on their headings (<th>).
+
+  Use border-collapse: collapse to make table elements borders collapse into each other,
+  producing a neater and easier to control look.
+
+  Use <thead>, <tbody>, and <tfoot> to break up your table into logical chunks and provide
+  extra places to apply CSS to, so it is easier to layer styles on top of one another if required.
+
+  Use zebra striping to make alternative rows easier to read.
+
+  Use text-align to line up your <th> and <td> text, to make things neater and easier to follow.
+
+  Set some padding on the <th> and <td> elements — this gives the data items some space to breathe, making the table look a lot more legible.
+
+  Set some letter-spacing on the headings and cells, as we feel it aids readability.
+
+  -->
+    <table>
+    <caption>A summary of the UK's most famous punk bands</caption>
+    <thead>
+      <tr>
+        <th scope="col">Band</th>
+        <th scope="col">Year formed</th>
+        <th scope="col">No. of Albums</th>
+        <th scope="col">Most famous song</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Buzzcocks</th>
+        <td>1976</td>
+        <td>9</td>
+        <td>Ever fallen in love (with someone you shouldn't've)</td>
+      </tr>
+      <tr>
+        <th scope="row">The Clash</th>
+        <td>1976</td>
+        <td>6</td>
+        <td>London Calling</td>
+      </tr>
+      <tr>
+        <th scope="row">The Stranglers</th>
+        <td>1974</td>
+        <td>17</td>
+        <td>No More Heroes</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th scope="row" colspan="2">Total albums</th>
+        <td colspan="2">77</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
